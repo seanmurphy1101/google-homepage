@@ -2,14 +2,19 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
         <style>
             ul {
                 list-style-type: none;
                 margin: 0;
                 padding: 0;
+                
             }
             li {
                 float: left;
+                font-family: 'Open Sans', sans-serif;
+                
             }
             .largepad{
                 padding-left: 1100px;
@@ -25,9 +30,11 @@
             .middle{
                 display: block;
                 margin: auto;
-                padding-left: 80px;
-                padding-right: 80px;
+                width: 300px;
+                padding-left: 10px;
+                padding-right: 10px;
                 margin-top: 10px;
+                border-radius: 15px;
             }
             .buttons {
                 width: 200px;
@@ -41,6 +48,35 @@
                 margin-left: 600px;
                 display: inline;
                 }
+            a:link{
+                color: black;
+                text-decoration: none;
+            }
+            .bottomlinks{
+                display: block;
+                bottom: 0px;
+                padding-left: 20px;
+            }
+            .bottomlinkslarge{
+                display: block;
+                bottom: 0px;
+                padding-left: 870px;
+            }
+            .bottomlinksleft{
+                display: block;
+                bottom: 10px;
+                margin-left: 0px;
+                padding-left: 10px;
+            }
+            .bottom{
+                position: absolute;
+                display: block;
+                bottom: 0px;
+                background-color:lightgray;
+                padding-right: 31px;
+                border-color: black;
+                border: 10px;
+            }
 
         </style>
     </head>
@@ -59,6 +95,16 @@
                 <button>Google Search</button>
                 <button>I'm Feeling Lucky</button>
             </div>
+        </div>
+        <div class="bottom">
+            <ul>
+                <li><a class="bottomlinksleft" href="https://web.archive.org/web/20191130221802if_/https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1" alt="ads">Advertising</a></li>
+                <li><a class="bottomlinks" href="https://web.archive.org/web/20191130221757if_/https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none" alt="business">Business</a></li>
+                <li><a class="bottomlinks" href="https://web.archive.org/web/20191130211108if_/https://www.google.com/search/howsearchworks/?fg=1" alt="how search works">How Search Works</a></li>
+                <li><a class="bottomlinkslarge" href="https://web.archive.org/web/20191201001452if_/https://policies.google.com/privacy?fg=1" alt="privacy">Privacy</a></li>
+                <li><a class="bottomlinks" href="https://web.archive.org/web/20191201001502if_/https://policies.google.com/terms?fg=1" alt="terms">Terms</a></li>
+                <li><a class="bottomlinks" href="" alt="settings">Settings</a></li>
+            </ul>
         </div>
     </body>
     
